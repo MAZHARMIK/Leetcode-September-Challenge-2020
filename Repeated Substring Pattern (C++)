@@ -1,0 +1,17 @@
+class Solution {
+public:
+    bool repeatedSubstringPattern(string s) {
+        int n = s.length();
+        for(int i = n/2; i>0; i--) {
+            string temp = s.substr(0, i);
+            int repeatations = n/i;
+            string result = "";
+            while(repeatations--) {
+                result += temp;
+            }
+            if(result == s)
+                return true;
+        }
+        return false;
+    }
+};
