@@ -19,5 +19,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Contains Duplicate III</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Contains%20Duplicate%20III"><img src="http://st2.depositphotos.com/3765753/5349/v/450/depositphotos_53491457-stock-illustration-duplicate-red-rubber-stamp-vector.jpg" width="200" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Repeated Substring Pattern</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Repeated%20Substring%20Pattern%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/fB-qFafiuv0/maxresdefault.jpg" width="200" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
