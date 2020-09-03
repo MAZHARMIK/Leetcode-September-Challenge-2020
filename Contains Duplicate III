@@ -1,0 +1,31 @@
+typedef long long ll;
+class Solution {
+public:
+    bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
+        int n = nums.size();
+        if(n == 0 || k <= 0)
+            return false;
+        vector<pair<int,int>> num_index;
+        for(int i=0;i<n;i++) {
+            num_index.push_back(make_pair(nums[i],i));
+        }
+        sort(num_index.begin(),num_index.end());
+        int curr=0;
+        int next=1;
+        while(next<n)
+        {
+            ll a = num_index[curr].first;
+            ll b = num_index[next].first;
+            if(abs(num_index[curr].second-num_index[next].second) <= k && abs(a-b)<=t)
+                return true;
+            if(abs(num_index[curr].second-num_index[next].second)>k)
+                next++;
+            if(abs(a-b)>t)
+                curr++;
+            if(curr==next)
+                next++;
+        }
+        return false;
+
+    }
+};
