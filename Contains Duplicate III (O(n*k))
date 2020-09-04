@@ -1,0 +1,21 @@
+typedef long long ll;
+class Solution {
+public:
+    bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
+        if(k == 0)
+            return false;
+        int n = nums.size();
+        set<int> s(nums.begin(), nums.end());
+        if(t == 0 && s.size() == n)
+            return false;
+        for(int i = 0; i<n; i++) {
+            for(int j = i+1; j<i+1+k && j < n; j++) {
+                ll a = nums[i];
+                ll b = nums[j];
+                if(abs(a-b) <=t)
+                    return true;
+            }
+        }
+        return false;
+    }
+};
