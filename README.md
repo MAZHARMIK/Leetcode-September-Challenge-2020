@@ -25,7 +25,7 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			</tr>
 			<tr>
 			  <td>Partition Labels</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Partition%20Labels%20(C%2B%2B)"><img src="https://www.goodfreephotos.com/albums/vector-images/label-with-string-vector-clipart.png" width="300" height="150"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Partition%20Labels%20(Simplified%20C%2B%2B)"><img src="https://www.goodfreephotos.com/albums/vector-images/label-with-string-vector-clipart.png" width="300" height="150"></a></td>
 			</tr>
 		</tbody>
 </table>
