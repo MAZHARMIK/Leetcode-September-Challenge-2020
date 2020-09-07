@@ -35,5 +35,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Image Overlap</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Image%20Overlap"><img src="https://contribute.geeksforgeeks.org/wp-content/uploads/Untitled1.png" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Word Pattern</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Word%20Pattern%20(C%2B%2B)"><img src="https://ahomefordesign.com/images/Blog2013/06-June/June-word-of-the-month-pattern.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
