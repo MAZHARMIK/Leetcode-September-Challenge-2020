@@ -1,0 +1,26 @@
+class Solution {
+public:
+    bool wordPattern(string pattern, string str) {
+        stringstream stream(str);
+        string token;
+        vector<string> vec;
+        while(getline(stream, token, ' ')) {
+            vec.push_back(token);
+        }
+        if(vec.size() != pattern.length())
+            return false;
+        map<char, string> mp;
+        for(int i = 0; i<pattern.length(); i++) {
+            if(!mp.count(pattern[i])) {
+                for(auto it:mp) {
+                    if(it.second == vec[i])
+                        return false;
+                }
+                mp[pattern[i]] = vec[i];
+            }
+            else if(mp[pattern[i]] != vec[i])
+                return false;
+        }
+        return true;
+    }
+};
