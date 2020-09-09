@@ -41,7 +41,7 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			</tr>
 			<tr>
 			  <td>Sum of Root To Leaf Binary Numbers</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers%20(Naive)"><img src="https://helloacm.com/wp-content/uploads/2019/04/binary-tree-binary-numbers.jpg" width="300" height="150"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers%20(Better)"><img src="https://helloacm.com/wp-content/uploads/2019/04/binary-tree-binary-numbers.jpg" width="300" height="150"></a></td>
 			</tr>
 		</tbody>
 </table>
