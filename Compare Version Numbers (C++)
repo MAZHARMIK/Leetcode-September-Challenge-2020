@@ -1,0 +1,37 @@
+class Solution {
+public:
+    int compareVersion(string version1, string version2) {
+        stringstream v1(version1);
+        string token_v1 = "";
+        vector<string> version1_tokens;
+        while(getline(v1, token_v1, '.')) {
+            version1_tokens.push_back(token_v1);
+        }
+        stringstream v2(version2);
+        string token_v2 = "";
+        vector<string> version2_tokens;
+        while(getline(v2, token_v2, '.')) {
+            version2_tokens.push_back(token_v2);
+        }
+        
+        while(version1_tokens.size() > version2_tokens.size())
+            version2_tokens.push_back("0");
+        
+        while(version2_tokens.size() > version1_tokens.size())
+            version1_tokens.push_back("0");
+        
+        int n = version1_tokens.size();
+        int  i = 0;
+        while(i < n) {
+            int a = stoi(version1_tokens[i]);
+            int b = stoi(version2_tokens[i]);
+            if(a > b)
+                return 1;
+            else if(b > a)
+                return -1;
+            else
+                i++;
+        }
+        return 0;
+    }
+};
