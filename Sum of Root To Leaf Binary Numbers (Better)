@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int pathSum(TreeNode* root, int sum) {
+        if(!root)
+            return 0;
+        sum = sum<<1;
+        sum += root->val;
+        if(root->left == NULL && root->right == NULL) {
+            return sum;
+        }
+        return pathSum(root->left, sum) + pathSum(root->right, sum);
+    }
+    int sumRootToLeaf(TreeNode* root) {
+        
+        return pathSum(root, 0);
+    }
+};
