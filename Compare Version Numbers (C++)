@@ -1,18 +1,19 @@
 class Solution {
 public:
+    vector<string> getTokens(string version) {
+        stringstream v(version);
+        string token_v = "";
+        vector<string> version_tokens;
+        while(getline(v, token_v, '.')) {
+            version_tokens.push_back(token_v);
+        }
+        return version_tokens;
+    }
     int compareVersion(string version1, string version2) {
         stringstream v1(version1);
         string token_v1 = "";
-        vector<string> version1_tokens;
-        while(getline(v1, token_v1, '.')) {
-            version1_tokens.push_back(token_v1);
-        }
-        stringstream v2(version2);
-        string token_v2 = "";
-        vector<string> version2_tokens;
-        while(getline(v2, token_v2, '.')) {
-            version2_tokens.push_back(token_v2);
-        }
+        vector<string> version1_tokens = getTokens(version1);
+        vector<string> version2_tokens = getTokens(version2);  
         
         while(version1_tokens.size() > version2_tokens.size())
             version2_tokens.push_back("0");
