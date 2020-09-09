@@ -1,0 +1,39 @@
+class Solution {
+public:
+    int getBinaryNum(string num) {
+        int n = num.length();
+        int sum = 0;
+        int p = 0;
+        for(int i = n-1; i>=0; i--) {
+            if(num[i] == '1')
+                sum += pow(2, p)*1;
+            p++;
+        }
+        return sum;
+    }
+    void collectPaths(TreeNode* root, vector<string>& result, string currPath) {
+        if(!root)
+            return;
+        if(root->left == NULL && root->right == NULL) {
+            currPath += (root->val == 1)?'1':'0';
+            result.push_back(currPath);
+            return;
+        }
+        
+        currPath +=  (root->val == 1)?'1':'0';
+        collectPaths(root->left, result, currPath);
+        collectPaths(root->right, result, currPath);
+    }
+    int sumRootToLeaf(TreeNode* root) {
+        vector<string> result;
+        string currPath;
+        collectPaths(root, result, currPath);
+        
+        int sum = 0;
+        for(int i = 0; i<result.size(); i++) {
+            cout << result[i] << "\n";
+            sum += getBinaryNum(result[i]);
+        }
+        return sum;
+    }
+};
