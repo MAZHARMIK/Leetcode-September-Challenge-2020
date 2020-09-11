@@ -47,5 +47,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Compare Version Numbers</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Compare%20Version%20Numbers%20(C%2B%2B)"><img src="https://bhawanigarg.com/wp-content/uploads/2014/05/android_versions_breakup.gif" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Bulls and Cows</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Bulls%20and%20Cows%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/h6xXNwnnOow/maxresdefault.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
