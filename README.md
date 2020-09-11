@@ -51,5 +51,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Bulls and Cows</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Bulls%20and%20Cows%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/h6xXNwnnOow/maxresdefault.jpg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Maximum Product Subarray</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Product%20Subarray"><img src="https://shrinikethome.files.wordpress.com/2020/01/array-ds.png" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
