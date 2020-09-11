@@ -1,0 +1,27 @@
+class Solution {
+public:
+    string getHint(string secret, string guess) {
+        int n = secret.length();
+        unordered_map<char, int> SM;
+        unordered_map<char, int> GM;
+        int bulls = 0;
+        int cows  = 0;
+        
+        for(int i = 0; i<n; i++) {
+            if(secret[i] == guess[i])
+                bulls++;
+            else {
+                SM[secret[i]]++;
+                GM[guess[i]]++;
+            }
+        }
+        
+        for(auto it:SM) {
+            if(GM.count(it.first)) {
+                cows += min(SM[it.first], GM[it.first]);
+            }
+        }
+        
+        return to_string(bulls)+"A"+to_string(cows)+"B";
+    }
+};
