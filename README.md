@@ -55,5 +55,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Maximum Product Subarray</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Product%20Subarray"><img src="https://shrinikethome.files.wordpress.com/2020/01/array-ds.png" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Combination Sum III</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20III"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Depthfirst.png" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
