@@ -59,5 +59,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Combination Sum III</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20III"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Depthfirst.png" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>House Robber (C++)</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/House%20Robber%20(C%2B%2B)"><img src="https://st2.depositphotos.com/4058879/5872/v/450/depositphotos_58729833-stock-illustration-burglar.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
