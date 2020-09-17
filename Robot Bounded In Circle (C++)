@@ -1,0 +1,27 @@
+typedef unordered_map<char, pair<char, char>> um_char;
+typedef unordered_map<char, pair<int, int>> um_int;
+class Solution {
+public:
+    bool isRobotBounded(string instructions) {
+        um_char dir{{'N', {'W', 'E'}}, {'W', {'S', 'N'}}, {'S', {'E', 'W'}}, {'E', {'N', 'S'}}};
+        
+        um_int move{{'N', {0, 1}}, {'W', {-1, 0}}, {'S', {0, -1}}, {'E', {1, 0}}};
+        
+        char curr_dir = 'N';
+        vector<int> pos{0, 0};
+        for(char command:instructions) {
+            if(command == 'L') {
+                curr_dir = dir[curr_dir].first;
+            } else if(command == 'R') {
+                curr_dir = dir[curr_dir].second;
+            } else {
+                pos[0] += move[curr_dir].first;
+                pos[1] += move[curr_dir].second;
+            }
+        }
+        
+        if(pos[0] == 0 && pos[1] == 0)
+            return true;
+        return curr_dir != 'N';
+    }
+};
