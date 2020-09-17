@@ -71,5 +71,10 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Maximum XOR of Two Numbers in an Array</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array"><img src="https://3.bp.blogspot.com/-pqaoSPDj4ms/VQAi57krJAI/AAAAAAAAAJ0/5Ud5EPesUJA/s1600/xor.jpg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Robot Bounded In Circle</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Robot%20Bounded%20In%20Circle%20(C%2B%2B)"><img src="https://fcit.usf.edu/matrix/wp-content/uploads/2016/12/Robot-24-C.png" width="300" height="150"></a></td>
+			</tr>
+
 		</tbody>
 </table>
