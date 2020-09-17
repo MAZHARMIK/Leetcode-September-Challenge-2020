@@ -20,8 +20,9 @@ public:
             }
         }
         
-        if(pos[0] == 0 && pos[1] == 0)
+        if(pos[0] == 0 && pos[1] == 0) //it reached origin again. So, it's a circle
             return true;
-        return curr_dir != 'N';
+        return curr_dir != 'N';       //If it is pointing to 'N' at the end it means, it will be moving indefinitely towards 'N'
+                                      //and never come back to start position again. Hence, it can't be a circle
     }
 };
