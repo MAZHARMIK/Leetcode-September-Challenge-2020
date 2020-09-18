@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int maxProfit(vector<int>& prices, bool toBuy, int idx, int k, int t[][2][2]) {
+        if(idx >= prices.size() || k == 0)
+            return t[idx][toBuy][k] = 0;
+        if(t[idx][toBuy][k] != -1)
+            return t[idx][toBuy][k];
+        int profit = 0;
+        if(toBuy) {
+            int buys   = maxProfit(prices, false, idx+1, k, t) - prices[idx];
+            int no_buy = maxProfit(prices, toBuy, idx+1, k, t);
+            profit = max(buys, no_buy);
+        } else {
+            int sells   = maxProfit(prices, true, idx+1, k-1, t) + prices[idx];
+            int no_sell = maxProfit(prices, false, idx+1, k, t);
+            profit = max(sells, no_sell);
+        }
+        return t[idx][toBuy][k] = profit;
+    }
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        int t[n+1][2][2];
+        memset(t, -1, sizeof(t));
+        return maxProfit(prices, true, 0, 1, t);
+    }
+};
