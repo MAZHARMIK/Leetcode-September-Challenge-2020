@@ -79,6 +79,10 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Robot Bounded In Circle</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(C%2B%2B)"><img src="https://asset.barrons.com/public/resources/images/ON-CK267_buysel_B620_20180126145424.jpg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Sequential Digits</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits"><img src="http://1.bp.blogspot.com/-TWdT7QuwlVs/UASzgR96deI/AAAAAAAADBg/AgCABAEPLHw/s1600/Digits.png" width="300" height="150"></a></td>
+			</tr>
 
 		</tbody>
 </table>
