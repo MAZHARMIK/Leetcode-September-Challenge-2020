@@ -83,6 +83,10 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Sequential Digits</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits"><img src="http://1.bp.blogspot.com/-TWdT7QuwlVs/UASzgR96deI/AAAAAAAADBg/AgCABAEPLHw/s1600/Digits.png" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Unique Paths III</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Unique%20Paths%20III%20(DFS)"><img src="https://www.pythoninformer.com/img/numpy/2d-array.png" width="300" height="150"></a></td>
+			</tr>
 
 		</tbody>
 </table>
