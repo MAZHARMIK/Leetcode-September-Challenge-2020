@@ -87,6 +87,10 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Unique Paths III</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Unique%20Paths%20III%20(DFS)"><img src="https://www.pythoninformer.com/img/numpy/2d-array.png" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Car Pooling</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Car%20Pooling%20(2%20approaches)"><img src="https://static.vecteezy.com/system/resources/previews/000/143/153/non_2x/carpool-vector.jpg" width="300" height="150"></a></td>
+			</tr>
 
 		</tbody>
 </table>
