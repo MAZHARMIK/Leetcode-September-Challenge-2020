@@ -95,5 +95,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Majority Element II</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Majority%20Element%20II"><img src="https://thesmokingglasshour.files.wordpress.com/2015/10/5800x3480_belyij-fon-chelovechki-krug-soveschanie.jpg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Find the Difference</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Find%20the%20Difference"><img src="https://i.ytimg.com/vi/LvBfZD7gfaM/maxresdefault.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
