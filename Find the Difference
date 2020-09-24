@@ -1,0 +1,23 @@
+class Solution {
+public:
+    char findTheDifference(string s, string t) {
+        map<char, int> mp;
+        int count[26] = {0};
+        
+        for(char ch:s) {
+            count[ch-'a']++;
+        }
+        
+        char c = 'a';
+        for(char ch:t) {
+            if(count[ch-'a'] == 0) {
+                c = ch;
+                break;
+            } else {
+                count[ch-'a']--;
+            }
+        }
+        
+        return c;
+    }
+};
