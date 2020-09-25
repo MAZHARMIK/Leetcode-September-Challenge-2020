@@ -99,5 +99,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Find the Difference</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/Find%20the%20Difference"><img src="https://i.ytimg.com/vi/LvBfZD7gfaM/maxresdefault.jpg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Largest Number</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Number%20(Leetcode-179)"><img src="https://assets.newatlas.com/dims4/default/bc6c806/2147483647/strip/true/crop/1619x1080+151+0/resize/1160x774!/quality/90/?url=https:%2F%2Fassets.newatlas.com%2Farchive%2Flargest-prime-number-discovered-1.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
