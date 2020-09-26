@@ -9,12 +9,12 @@ public:
         
         int time = 0;
         for(int i = 1; i<n; i++) {
-            if(timeSeries[i-1]+duration <= timeSeries[i]) {
+            if(timeSeries[i-1]+duration <= timeSeries[i]) {   //If this is the case, then Ashe was poisoned was for full "duration"
                 time += duration;
             } else {
-                time += timeSeries[i] - timeSeries[i-1];
+                time += timeSeries[i] - timeSeries[i-1];     //We will consider only the overlapped value because the previous duration and current duration merges
             }
         }
-        return time+duration;
+        return time+duration; //Why +duration ? Because, for last time stamp Ashe was attacked, that will go till "duration" and needs to be considered
     }
 };
