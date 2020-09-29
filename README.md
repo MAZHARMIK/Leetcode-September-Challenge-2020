@@ -115,5 +115,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Subarray Product Less Than K</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Subarray%20Product%20Less%20Than%20K"><img src="https://zhangxiaokang.files.wordpress.com/2017/01/sliding-window-page-1.png?w=640" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Word Break</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Word%20Break%20(Memoized%2BDP%20:%20Leetcode-139)"><img src="https://3vq5kdns38e1qxlmvvqmrzsi-wpengine.netdna-ssl.com/wp-content/uploads/2013/01/Break-word-reversed_opt.jpeg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
