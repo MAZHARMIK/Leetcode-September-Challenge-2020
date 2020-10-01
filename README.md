@@ -119,5 +119,9 @@ Link to the contest : <a href="https://leetcode.com/explore/challenge/card/septe
 			  <td>Word Break</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Word%20Break%20(Memoized%2BDP%20:%20Leetcode-139)"><img src="https://3vq5kdns38e1qxlmvvqmrzsi-wpengine.netdna-ssl.com/wp-content/uploads/2013/01/Break-word-reversed_opt.jpeg" width="300" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>First Missing Positive</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-September-Challenge-2020/blob/master/First%20Missing%20Positive%20(C%2B%2B)"><img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/positive_negative_r07c7d.jpg" width="300" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
